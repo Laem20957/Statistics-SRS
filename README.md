@@ -1,5 +1,6 @@
 # Statistics-SRS
-Use python script to get information about the attendance statistics of PBI reports on SQL Server Reporting Services (SSRS)
+Use python script to get information about the attendance statistics of PBI reports on  
+SQL Server Reporting Services (SSRS)
 
 For use this script, you need:
 1. SMTP Host, port, login and password (use SSL protocol)
