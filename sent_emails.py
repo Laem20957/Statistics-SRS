@@ -24,7 +24,7 @@ query = r"""
         FROM [ReportServer].[dbo].[ExecutionLog2]
         WHERE SUBSTRING([ReportPath], 26, 4) IN("6102", "6170", "6171", "6173", "6175", "6176", "6177", "6178")
         OR SUBSTRING([ReportPath], 32, 4) IN("6173", "6178")
-		OR SUBSTRING([ReportPath], 67, 4) IN("6136")
+	OR SUBSTRING([ReportPath], 67, 4) IN("6136")
         --AND [TimeStart] BETWEEN "2023-03-01" AND "2023-03-20"
         AND [Format] = "PBIX"
         GROUP BY 
